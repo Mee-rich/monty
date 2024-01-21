@@ -59,6 +59,7 @@ typedef struct func_t
 	int f1;
 	char *content;
 } funct_t;
+extern func_t func;
 
 /*task 0*/
 void push_function(stack_t **head, unsigned int line_count);
